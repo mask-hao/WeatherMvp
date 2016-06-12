@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Weather" />
+    <version value="3"/>
+    <list>
+        <mapping class="com.zhanghao.hefenweathermvp.Bean.CityContent"/>
+        <mapping class="com.zhanghao.hefenweathermvp.Bean.CityAdded"/>
+        <mapping class="com.zhanghao.hefenweathermvp.Bean.WeatherNow"/>
+        <mapping class="com.zhanghao.hefenweathermvp.Bean.WeatherDaily"/>
+        <mapping class="com.zhanghao.hefenweathermvp.Bean.WeatherHourly"/>
+    </list>
+</litepal>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text=""
+            android:id="@+id/WeatherNowTmp"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/feeltmp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/WeatherNowFl"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/hum"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/WeatherNowHum"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/wind"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/WeatherNowDir"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

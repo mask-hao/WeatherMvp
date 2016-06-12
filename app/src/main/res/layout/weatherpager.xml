@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+<com.facebook.drawee.view.SimpleDraweeView
+    android:id="@+id/weatherNowImage"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    />
+  <include
+   layout="@layout/weathnow_include"/>
+ </LinearLayout>
+    <View
+        android:background="#BFBFBF"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <include
+        layout="@layout/weatherhourly_include"/>
+    <include
+        layout="@layout/weatherdaily_d_include"/>
+    <include
+        layout="@layout/weatherdaily_chart_d_include"/>
+    <include
+        layout="@layout/weatherdaily_chart_n_include"/>
+     <include
+         layout="@layout/weatherdaily_n_include"/>
+    </LinearLayout>
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

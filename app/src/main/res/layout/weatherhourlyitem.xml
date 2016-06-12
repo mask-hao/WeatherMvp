@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/weatherHourly_tmp"
+    android:layout_gravity="center"
+    android:text="17℃"
+    android:textSize="20sp"
+    android:textColor="#000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<com.facebook.drawee.view.SimpleDraweeView
+    android:id="@+id/weatherHourly_iv"
+    android:layout_gravity="center"
+    android:layout_width="40dp"
+    android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/weatherHourly_time"
+        android:layout_gravity="center"
+        android:text="12:00"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
